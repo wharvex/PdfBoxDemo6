@@ -23,7 +23,7 @@ public class Main {
     // Load File from file system.
     String currentWorkingDirectory = System.getProperty("user.dir");
     System.out.println("Current working directory: " + currentWorkingDirectory);
-    File file = new File("sample.pdf");
+    File file = new File("test.pdf");
 
     // Load PDF document from File.
     try (PDDocument document = Loader.loadPDF(file)) {
